@@ -40,3 +40,5 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    +post_hook: 
+      - "drop table MYDBT_DB.DBT_GSATISH.DBT_CUSTOMER"
