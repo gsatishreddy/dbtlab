@@ -8,7 +8,7 @@
 */
 
 {{ config(materialized='table')
-    pre_hook="Delete from MYDBT_DB_DBT_GSATISH.DBT_CUSTOMER"
+    pre_hook="Delete from MYDBT_DB.DBT_GSATISH.DBT_CUSTOMER"
  }}
 
 with source_data as (
