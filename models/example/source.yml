@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: MYDBT_DB_DBT_GSATISH
+    schema: DBT_GSATISH
+    tables:
+      - name: DBT_CUSTOMER
